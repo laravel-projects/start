@@ -1,27 +1,85 @@
-# Laravel PHP Framework
+# Start your Laravel project with default assets
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>@yield('title','Default Project Title')</title> 
+    <!-- Fonts --> 
+    <!-- Styles --> 
+</head>
+<body> 
+    @yield('content') 
+    <!-- JavaScripts --> 
+</body>
+</html>
+```
+## Fonts
+### Font Awesome (4.6.3) 
+```html
+...
+    <!-- Fonts -->  
+    <link rel="stylesheet" href="{{ asset('assets/default/fonts/font-awesome-4.6.3/css/font-awesome.min.css') }}">
+...  
+```
+find icons [here](http://fontawesome.io/icons/)
+### Ionicons (2.0.1)
+```html
+...
+    <!-- Fonts -->  
+    <link rel="stylesheet" href="{{ asset('assets/default/fonts/ionicons-2.0.1/css/ionicons.min.css') }}">
+...  
+```
+find icons [here](http://ionicons.com)
+## Css (style)  
+### [bootstrap](http://getbootstrap.com/css/)
+```html
+...
+    <!-- Styles -->  
+    <link rel="stylesheet" href="{{ asset('assets/default/css/bootstrap.min.css') }}" >
+    ...  
+```
+### [bootswatch](https://bootswatch.com)
+you can use default css 
+```html 
+    <!-- Styles -->  
+    ...
+    <link rel="stylesheet" href="{{ asset('assets/default/css/default.bootstrap.min.css') }}" >
+    ...
+```
+find more bootstarp style like default.bootstrap.min.css from [bootswatch](https://bootswatch.com) 
+#### [default.bootstrap.min.css](https://bootswatch.com/default/)
+#### [cosmo.bootstrap.min.css](https://bootswatch.com/cosmo/)
+#### [lumen.bootstrap.min.css](https://bootswatch.com/lumen/)
+#### [paper.bootstrap.min.css](https://bootswatch.com/paper/)
+#### [sandstone.bootstrap.min.css](https://bootswatch.com/sandstone/)
+#### [united.bootstrap.min.css](https://bootswatch.com/united/)
+#### [yeti.bootstrap.min.css](https://bootswatch.com/yeti/)
+and add your application style in app.css
+```html 
+    <!-- Styles -->  
+    ...
+    <link rel="stylesheet" href="{{ asset('assets/app/css/app.css') }}" >
+...  
+```
+## Javascript 
+### [jquery](https://jquery.com)
+```html 
+    ...
+    <!-- JavaScripts -->
+    <script src="{{ asset('assets/default/js/jquery.min.js') }}" ></script> 
+   ...  
+```
+### [bootstrap](http://getbootstrap.com/javascript/)
+```html 
+    ...
+    <!-- JavaScripts -->
+    ...
+    <script src="{{ asset('assets/default/js/bootstrap.min.js') }}" ></script> 
+...  
+```
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
-
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
-
-## Official Documentation
-
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+ 
