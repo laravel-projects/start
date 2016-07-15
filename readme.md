@@ -1,11 +1,11 @@
 #Start Laravel
 ##Install
 
-PHP >= 5.5.9
-OpenSSL PHP Extension
-PDO PHP Extension
-Mbstring PHP Extension
-Tokenizer PHP Extension
+#####PHP >= 5.5.9
+#####OpenSSL PHP Extension
+#####PDO PHP Extension
+#####Mbstring PHP Extension
+#####Tokenizer PHP Extension
 
 ###install [Composer](https://getcomposer.org)
 Composer is a tool for dependency management in PHP. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you.
