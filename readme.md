@@ -19,7 +19,11 @@ open your terminal/git bash here:
 ```git
 git clone https://github.com/laravel-projects/start.git project-name 
 ```
-next update your laravel version with composer.json
+next open your project folder  
+```git
+cd project-name 
+```
+and update your laravel version with composer.json
 ```git
 composer update 
 ```
