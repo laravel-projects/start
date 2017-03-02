@@ -1,115 +1,40 @@
-#Start Laravel
-##Install
+<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
-#####PHP >= 5.5.9
-#####OpenSSL PHP Extension
-#####PDO PHP Extension
-#####Mbstring PHP Extension
-#####Tokenizer PHP Extension
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+</p>
 
-###install [Composer](https://getcomposer.org)
-Composer is a tool for dependency management in PHP. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you.
-###install [Git](https://git-scm.com)
-Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+## About Laravel
 
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
 
-###Clone and update from laravel
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-open your terminal/git bash here:
-```git
-git clone https://github.com/laravel-projects/start.git project-name 
-```
-next open your project folder  
-```git
-cd project-name 
-```
-and update your laravel version with composer.json
-```git
-composer update 
-```
-##Getting started
-Start your Laravel project with default assets
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <title>@yield('title','Default Project Title')</title> 
-    <!-- Fonts --> 
-    <!-- Styles --> 
-</head>
-<body> 
-    @yield('content') 
-    <!-- JavaScripts --> 
-</body>
-</html>
-```
-### Fonts
-#### Font Awesome (4.6.3) 
-```html
-...
-    <!-- Fonts -->  
-    <link rel="stylesheet" href="{{ asset('assets/default/fonts/font-awesome-4.6.3/css/font-awesome.min.css') }}">
-...  
-```
-find icons [here](http://fontawesome.io/icons/)
-#### Ionicons (2.0.1)
-```html
-...
-    <!-- Fonts -->  
-    <link rel="stylesheet" href="{{ asset('assets/default/fonts/ionicons-2.0.1/css/ionicons.min.css') }}">
-...  
-```
-find icons [here](http://ionicons.com)
-### Css (style)  
-#### [bootstrap](http://getbootstrap.com/css/)
-```html
-...
-    <!-- Styles -->  
-    <link rel="stylesheet" href="{{ asset('assets/default/css/bootstrap.min.css') }}" >
-    ...  
-```
-#### [bootswatch](https://bootswatch.com)
-you can use default css 
-```html 
-    <!-- Styles -->  
-    ...
-    <link rel="stylesheet" href="{{ asset('assets/default/css/default.bootstrap.min.css') }}" >
-    ...
-```
-find more bootstarp style like default.bootstrap.min.css from [bootswatch](https://bootswatch.com) 
-##### [default.bootstrap.min.css](https://bootswatch.com/default/)
-##### [cosmo.bootstrap.min.css](https://bootswatch.com/cosmo/)
-##### [lumen.bootstrap.min.css](https://bootswatch.com/lumen/)
-##### [paper.bootstrap.min.css](https://bootswatch.com/paper/)
-##### [sandstone.bootstrap.min.css](https://bootswatch.com/sandstone/)
-##### [united.bootstrap.min.css](https://bootswatch.com/united/)
-##### [yeti.bootstrap.min.css](https://bootswatch.com/yeti/)
-and add your application style in app.css
-```html 
-    <!-- Styles -->  
-    ...
-    <link rel="stylesheet" href="{{ asset('assets/app/css/app.css') }}" >
-...  
-```
-### Javascript 
-#### [jquery](https://jquery.com)
-```html 
-    ...
-    <!-- JavaScripts -->
-    <script src="{{ asset('assets/default/js/jquery.min.js') }}" ></script> 
-   ...  
-```
-#### [bootstrap](http://getbootstrap.com/javascript/)
-```html 
-    ...
-    <!-- JavaScripts -->
-    ...
-    <script src="{{ asset('assets/default/js/bootstrap.min.js') }}" ></script> 
-...  
-```
+Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
 
+## Learning Laravel
 
- 
+Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
+
+If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+
+## Contributing
+
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
