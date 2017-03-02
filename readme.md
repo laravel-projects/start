@@ -1,4 +1,4 @@
-#Start Laravel
+#Start Laravel 2
 ##Install
 
 #####PHP >= 5.5.9
