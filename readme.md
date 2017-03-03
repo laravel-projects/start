@@ -31,3 +31,4 @@ composer update
 #####[Laravel framework](https://laravel.com) by : [Taylor Otwell](https://github.com/taylorotwell)
 #####[Laravel collective Forms & HTML](https://laravelcollective.com/docs/5.3/html) by : [Laravel Collective](https://twitter.com/LaraCollective)
 #####[Laravel 5 CRUD Generator](https://github.com/appzcoder/crud-generator) by : [Sohel Amin](http://www.sohelamin.com/)
+#####[ENTRUST (Laravel 5 Package)](https://github.com/Zizaco/entrust) by : [Andrew Elkins](https://andrewelkins.com)
