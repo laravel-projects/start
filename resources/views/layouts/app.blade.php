@@ -11,6 +11,7 @@
     <title>@yield('title',config('app.name'))</title>
 
     <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/app/css/default.css') }}" rel="stylesheet">
 
