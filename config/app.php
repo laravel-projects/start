@@ -12,7 +12,7 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => 'Laravel',
+    'name' => 'Laravel Start',
 
     /*
     |--------------------------------------------------------------------------
@@ -181,6 +181,7 @@ return [
         *   Include
         */
         Collective\Html\HtmlServiceProvider::class,
+        Zizaco\Entrust\EntrustServiceProvider::class,
 
     ],
 
@@ -233,6 +234,7 @@ return [
         /* Include*/ 
         'Form' => Collective\Html\FormFacade::class,
         'HTML' => Collective\Html\HtmlFacade::class,
+        'Entrust'   => Zizaco\Entrust\EntrustFacade::class,
 
     ],
 
