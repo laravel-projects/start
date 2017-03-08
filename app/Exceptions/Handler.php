@@ -43,7 +43,13 @@ class Handler extends ExceptionHandler
      * @return \Illuminate\Http\Response
      */
     public function render($request, Exception $exception)
-    {
+    { 
+        if (env('APP_DEBUG') == false) {
+            if ($exception->getCode() == false) {
+                return parent::render($request, $exception); 
+            } 
+            return redirect()->route('app.home');
+        } 
         return parent::render($request, $exception);
     }
 

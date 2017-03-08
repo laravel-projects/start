@@ -12,12 +12,6 @@ class ProfileController extends Controller
     {
         $this->middleware('auth');
     }
- 
-    public function index($username)
-    {
-    	$user = User::where('username',$username)->first(); 
-        return view('pages.profile.index',compact('user'));
-    }
 
     public function home()
     {
