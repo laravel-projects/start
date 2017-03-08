@@ -29,4 +29,6 @@ return [
     'welcome'                       => 'welcome', 
     'u-login'                       => 'you are logged in', 
 
+    'profile'                       => 'profile', 
+
 ];
