@@ -30,5 +30,8 @@ return [
     'u-login'                       => 'you are logged in', 
 
     'profile'                       => 'profile', 
+    'online'                        => 'online', 
+    'dasboard'                      => 'dasboard', 
+    'config'                        => 'configuration',  
 
 ];

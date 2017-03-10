@@ -36,7 +36,6 @@ class User extends Authenticatable
         $defultUserImg = "assets/app/img/default/";
         $defultUserImg .= (!empty($this->gender)&&($this->gender == false))? "default_avatar_w.jpg" :"default_avatar_m.jpg";
         return (!empty($this->img))?$this->img: $defultUserImg ;
-    }
-
+    } 
 
 }

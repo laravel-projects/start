@@ -34,3 +34,4 @@ composer update
 * [ENTRUST (Laravel 5 Package)](https://github.com/Zizaco/entrust) by : [Andrew Elkins](https://andrewelkins.com)
 * [Ionicons](http://ionicons.com) by : [Ionic Framework](http://ionicframework.com) and Designed by [Ben Sperry](https://twitter.com/benjsperry)
 * [Bootstrap](http://getbootstrap.com) by [twitter](https://twitter.com/getbootstrap) team :  [Mark Otto](https://twitter.com/mdo) and [jacob](https://twitter.com/fat) 
+* [AdminLTE](https://github.com/almasaeed2010/AdminLTE) by [Abdullah Almasaeed](https://twitter.com/Almasaeed2010)
