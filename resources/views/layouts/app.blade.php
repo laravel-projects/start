@@ -55,7 +55,10 @@
                             <li><a href="{{ route('login') }}">{{ ucfirst(trans('lib.login')) }}</a></li>
                             <li><a href="{{ route('register') }}">{{ ucfirst(trans('lib.register')) }}</a></li>
                         @else
-                            <li class="dropdown">
+                            @permission('dashboard')
+                            <li><a href="{{ route('admin.dashboard') }}">{{ ucfirst(trans('lib.dashboard')) }}</a></li>
+                            @endpermission
+                            <li class="dropdown"> 
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                                     <img src="{{ asset(Auth::user()->img()) }}" class="img-circle nav-user-img">
                                     {{ Auth::user()->fullname() }} <span class="caret"></span>
@@ -63,6 +66,7 @@
 
                                 <ul class="dropdown-menu" role="menu">
                                 <li><a href="{{ route('app.profile',Auth::user()->username) }}">{{ ucfirst(trans('lib.profile')) }}</a></li>
+                                <li><a href="{{ route('app.profile.settings') }}">{{ ucfirst(trans('lib.settings')) }}</a></li>
                                     <li>
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();

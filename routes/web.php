@@ -18,4 +18,5 @@ Auth::routes();
 
 /** Profile **/
 Route::get('/home', 'App\ProfileController@home')->name('app.profile.home');
+Route::get('/settings', 'App\ProfileController@settings')->name('app.profile.settings');
 Route::get('/{username}', 'HomeController@profile')->name('app.profile');

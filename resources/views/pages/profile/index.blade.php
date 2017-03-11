@@ -3,7 +3,7 @@
 @section('content') 
 <div class="container">
     <div class="row">
-        <div class="col-md-2">
+        <div class="col-md-3">
             <img src="{{asset($user->img())}}" class="img-thumbnail panel" alt="{{ $user->username }}" title="{{ $user->fullname() }}">
             <h1>{{ $user->fullname() }}</h1><hr>
             <p><i class="ion ion-quote"></i> &nbsp; <b>{{ $user->email }}</b></p>
@@ -17,7 +17,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-2">
             <div class="panel panel-default">
                 <div class="panel-heading">{{ucfirst(trans('lib.welcome'))}}</div>
 

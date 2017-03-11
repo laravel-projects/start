@@ -31,7 +31,14 @@ return [
 
     'profile'                       => 'profile', 
     'online'                        => 'online', 
-    'dasboard'                      => 'dasboard', 
+    'admin'                         => 'admin', 
+    'dashboard'                     => 'dashboard', 
     'config'                        => 'configuration',  
+    'settings'                      => 'settings',  
+    'account'                       => 'account',
+    'security'                      => 'security',
+    'username'                      => 'username',
+    'update'                        => 'update',
+    'save'                          => 'save',
 
 ];

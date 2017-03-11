@@ -20,7 +20,7 @@
       <ul class="sidebar-menu">
         <!-- Optionally, you can add icons to the links -->
         <li class="header">&nbsp;</li>
-        <li class="active"><a href="{{route('admin.dashboard')}}"><i class="fa fa-link"></i> <span>{{ucfirst(trans('lib.dasboard'))}}</span></a></li>
+        <li class="active"><a href="{{route('admin.dashboard')}}"><i class="fa fa-link"></i> <span>{{ucfirst(trans('lib.dashboard'))}}</span></a></li>
         <li class="header">{{ucfirst(trans('lib.config'))}}</li>
         <li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>
         <!--li class="treeview">
