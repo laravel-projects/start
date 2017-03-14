@@ -24,3 +24,4 @@ Route::group(['prefix'=>'','as'=>'app.profile'],function(){
 	});
 	Route::get('{username}', 'HomeController@profile');
 });
+
