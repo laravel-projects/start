@@ -17,6 +17,8 @@ return [
     'login'                         => 'login', 
     'logout'                        => 'logout', 
     'first&lastname'                => 'first and last name', 
+    'firstname'                     => 'first name', 
+    'lastname'                      => 'last name', 
     'email'                         => 'e-mail address', 
     'password'                      => 'password', 
     'confpassword'                  => 'confirm Password', 
@@ -40,5 +42,11 @@ return [
     'username'                      => 'username',
     'update'                        => 'update',
     'save'                          => 'save',
+
+    'country'                       => 'country',
+    'birthday'                      => 'birthday',
+    'gender'                        => 'gender',
+    'men'                           => 'men',
+    'woman'                         => 'woman',
 
 ];
