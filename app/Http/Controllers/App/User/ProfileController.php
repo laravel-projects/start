@@ -12,7 +12,7 @@ class ProfileController extends Controller
         $this->middleware('auth');
     }
 
-    public function home(){
+    public function index(){
     	
         return view('home');
     }

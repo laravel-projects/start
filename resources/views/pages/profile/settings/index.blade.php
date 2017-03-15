@@ -15,9 +15,9 @@
                         {{ csrf_field() }}
 
                         <div class="form-group{{ ($errors->has('firstname')OR$errors->has('lastname')) ? ' has-error' : '' }}">
-                            <label for="firstname" class="col-md-4 control-label">{{ucfirst(trans('lib.first&lastname'))}}</label>
+                            <label for="firstname" class="col-xs-3 control-label">{{ucfirst(trans('lib.first&lastname'))}}</label>
 
-                            <div class="col-md-3">
+                            <div class="col-xs-4">
                                 <input id="firstname" type="text" class="form-control" name="firstname" value="{{ (old('firstname'))? old('firstname') : $user->firstname }}" required autofocus>
 
                                 @if ($errors->has('firstname'))
@@ -27,7 +27,7 @@
                                 @endif
                             </div>
 
-                            <div class="col-md-3">
+                            <div class="col-xs-4">
                                 <input id="lastname" type="text" class="form-control" name="lastname" value="{{ (old('lastname'))? old('lastname') : $user->lastname }}" required>
 
                                 @if ($errors->has('lastname'))
@@ -39,9 +39,9 @@
                         </div> 
 
                         <div class="form-group{{ $errors->has('username') ? ' has-error' : '' }}">
-                            <label for="username" class="col-md-4 control-label">{{ucfirst(trans('lib.username'))}}</label>
+                            <label for="username" class="col-xs-3 control-label">{{ucfirst(trans('lib.username'))}}</label>
 
-                            <div class="col-md-6">
+                            <div class="col-xs-8">
                                 <input id="username" type="text" class="form-control" name="username" value="{{ (old('username'))? old('username') : $user->username }}" required>
 
                                 @if ($errors->has('username'))
@@ -53,7 +53,7 @@
                         </div>
  
 
-                        <div class="form-group">
+                        <div class="form-group"><hr>
                             <div class="col-md-3 col-md-offset-7">
                                 <button type="submit" class="btn btn-primary btn-block">{{ucfirst(trans('lib.update'))}}</button>
                             </div>
